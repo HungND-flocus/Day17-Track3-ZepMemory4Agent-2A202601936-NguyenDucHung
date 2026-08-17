@@ -1,8 +1,26 @@
+# Environment variables & secrets
 .env
-.DS_Store
+*.env
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
 __pycache__/
-.pytest_cache/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Golden Evaluation Data (Lab Rule: NEVER commit golden dataset)
 data/golden_eval.json
 data/golden*.json
 !data/golden_eval.example.json
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

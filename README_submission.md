@@ -1,6 +1,6 @@
 # BÁO CÁO BÀI NỘP LAB 17 - MULTI-MEMORY AGENT VỚI ZEP
 
-**Họ và tên**: Nguyễn Đức Hùng  
+**Họ và tên**: Nguyễn Đức Hưng  
 **Mã học viên**: 2A202601936  
 **Bài lab**: Day 17 - MultiMemory Agent với Zep Cloud V3  
 
@@ -34,3 +34,25 @@
 2. **Case retrieve nhiều token nhất**: Các case hỗn hợp (Mixed E07) và Episodic chứa nhiều văn bản transcript.
 3. **Case mixed E07**: Cần phối hợp **Long-term** (`Python`) và **Semantic** (`Idempotency-Key`).
 4. **Token Reduction vs Hit Rate**: No-memory baseline có token reduction rất cao nhưng Hit Rate bằng 0 cho các câu hỏi cần nhớ quá khứ, chứng tỏ reduction cao không có ý nghĩa nếu thiếu khả năng recall dữ liệu.
+
+---
+
+## 3. Ảnh Minh Chứng (Screenshots)
+
+*Lưu các file ảnh vào thư mục `submission/` theo đúng tên bên dưới để tự động hiển thị:*
+
+### 3.1. Long-term Memory Benchmark (E02, E03, E08 PASS)
+![Long-term Benchmark](submission/long_term.png)
+
+### 3.2. Episodic Memory Benchmark (E04, E05 PASS)
+![Episodic Benchmark](submission/episodic.png)
+
+### 3.3. Semantic Memory Benchmark (E06, E11 PASS)
+![Semantic Benchmark](submission/semantic.png)
+
+### 3.4. Privacy Drill - Right-to-be-forgotten (`src.forget`)
+![Privacy Drill](submission/privacy.png)
+
+### 3.5. Streamlit UI Demo (Điểm cộng UI +10đ)
+![Streamlit UI Demo](submission/ui_demo.png)
+
